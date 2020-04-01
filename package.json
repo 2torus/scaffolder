@@ -1,0 +1,25 @@
+{
+  "name": "scaffolder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "jester": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jest",
+    "scaffold",
+    "scaffolder",
+    "test",
+    "generator",
+    "auto",
+    "cli"
+  ],
+  "author": "Gilad Shohat",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "description": ""
+}
