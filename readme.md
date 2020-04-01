@@ -18,7 +18,7 @@ npm i scaffolder -g
 #### Create jest test file template
 ```js
 //cli
-scaffolder jester myfileName myFuncName myExpectedSuccessResult myExpectedErrorResult 
+scaffolder jester myfileName myFunc myExpectedSuccessResult myExpectedErrorResult 
 ```
 ```js
 //myFileName.test.js
