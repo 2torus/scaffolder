@@ -5,8 +5,7 @@ const scaffoldTestFile = () => {
     if (process.argv.length < 6) {
         return console.error('invalid arguments - please specify the following arguments: myFileName, myFunction, expectedSuccessResult, expectedErrorResult')
     };
-    let filePathIndex = 3;
-    console.log('process.arv', process.argv);
+    let filePathIndex = 2;
 
     const filePath = `${process.argv[filePathIndex]}.test.js`;
     const funcName = process.argv[++filePathIndex];
